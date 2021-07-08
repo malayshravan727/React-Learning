@@ -1,0 +1,20 @@
+*Mounting*
+
+Constructor
+
+Render
+
+componentDidMount -> It is a method that will be executed at initial render
+
+*Updating*
+
+Constructor
+shouldComponentUpdate(nextProp, nextState) -> false or true
+render()
+getSnapshotBeforeUpdate(prevProps, prevState) -> false or true
+componentDidUpdate()
+
+*UnMounting*
+componentWillUnmount(){
+    console.log("bye bye");
+}
